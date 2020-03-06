@@ -11,7 +11,7 @@ def test_is_int(i):
 
 
 def test_notequal_int():
-    assert random.randint(0, 10000) != random.randint(0, 10000)
+    assert random.randint(1, 100) != 0
 
 
 class TestDiv:

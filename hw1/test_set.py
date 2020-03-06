@@ -34,4 +34,4 @@ class TestAdd:
         :param i: range of integers
         """
         with pytest.raises(AttributeError):
-            assert self.fs.add(i) is None
+            assert self.fs.add(i)
